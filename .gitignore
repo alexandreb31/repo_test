@@ -1,0 +1,46 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Configuration d'environnement
+*.env
+*.env.*
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Fichiers temporaires
+*.bak
+*.swp
+*.tmp
+
+# Dossiers cachés par certains éditeurs
+.vscode/
+.idea/
+.history/
+
+# Données sensibles ou trop volumineuses
+*.h5
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.sqlite
+*.db
